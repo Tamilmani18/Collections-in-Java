@@ -8,8 +8,8 @@ public class Sample {
         }
         System.out.println(al);
         Iterator<Integer> itr = al.iterator();
-        while(itr.hasNext()) {
-        	int i=itr.next();
+        while(itr.hasNext()) {   // Checking the next element availability.
+        	int i=itr.next();  // Moving cursor to next element.
         	System.out.print(i+" ");
         	
         	if(i%2!=0) {
